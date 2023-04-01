@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 25vw;
+    height: 67vh;
+    margin: 120px auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid darkblue;
+    box-sizing: border-box;
+}
+
+#container #display {
+    width: 98%;
+    height: 18%;
+    font-size: 2rem;
+    padding: 2px;
+}
+
+#container button {
+    margin: 2%;
+    height: 10vh;
+    font-size: 1.4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+#row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#row1>button {
+    width: 96.5%;
+}
+
+#row5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#row5>button {
+    width: 96.5%;
+}
+
+#row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#row2>button {
+    width: 94.8%;
+}
+
+#row3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#row3>button {
+    width: 94.8%;
+}
+
+#row4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#row4>button {
+    width: 94.8%;
+}
